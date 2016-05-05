@@ -1,0 +1,8 @@
+services:
+  twig_not_empty_extension:
+    arguments: ['@renderer']
+    class: Drupal\twig_not_empty\TwigExtension\TwigNotEmptyExtension
+    tags:
+      - { name: twig.extension }
+  twig_not_empty_test:
+    class: Drupal\twig_not_empty\TwigNotEmptyTest
