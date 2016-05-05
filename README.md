@@ -1,5 +1,5 @@
 # twig_not_empty
-Adds a Twig notEmpty test.
+Adds a Twig notEmpty test for Drupal 8.
 
 Usage:
 
