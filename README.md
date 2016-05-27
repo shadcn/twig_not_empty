@@ -1,7 +1,7 @@
 # twig_not_empty
 Adds a Twig notEmpty test for Drupal 8.
 
-Usage:
+Usage:  Fields
 
 ```
 {% if content.field_name is notEmpty %}
@@ -10,3 +10,12 @@ Usage:
   </div>
 {% endif %}
 ```
+
+Usage: Regions
+
+```
+{% if page.content is notEmpty %}
+  {{ page.content }}
+{% endif %}
+```
+
